@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=3 uid="uid://cxg085rvngqku"]
+
+[ext_resource type="Script" path="res://dialogos_manager.gd" id="1_ywpny"]
+[ext_resource type="Texture2D" uid="uid://br52pjc74paxk" path="res://Assets/sprites/protagonistaretrato.jpeg" id="2_fi6k3"]
+[ext_resource type="Texture2D" uid="uid://cwxijbs5eod70" path="res://Assets/sprites/amiga.jpeg" id="3_7rq4u"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_jsnsv"]
+
+[node name="dialogos" type="Node2D"]
+script = ExtResource("1_ywpny")
+
+[node name="DialogBox" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 444.0
+offset_top = 548.0
+offset_right = 599.0
+offset_bottom = 601.0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="DialogBox"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.806
+anchor_top = 3.0
+anchor_right = 7.735
+anchor_bottom = 8.509
+offset_left = -0.0699921
+offset_top = -9.00002
+offset_right = 11.075
+offset_bottom = 0.0229492
+
+[node name="Label" type="Label" parent="DialogBox/NinePatchRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -7.0
+offset_right = 14.0
+offset_bottom = 2.0
+text = "lebron jaMES"
+label_settings = SubResource("LabelSettings_jsnsv")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+uppercase = true
+visible_ratio = -0.0833333
+text_direction = 1
+
+[node name="retrato01" type="TextureRect" parent="."]
+offset_left = 80.0
+offset_top = 205.0
+offset_right = 710.0
+offset_bottom = 835.0
+texture = ExtResource("2_fi6k3")
+expand_mode = 3
+
+[node name="retrato02" type="TextureRect" parent="."]
+offset_left = 1272.0
+offset_top = 215.0
+offset_right = 1889.0
+offset_bottom = 830.0
+texture = ExtResource("3_7rq4u")
+expand_mode = 3
+
+[node name="Timer" type="Timer" parent="."]

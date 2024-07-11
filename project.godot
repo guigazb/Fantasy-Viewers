@@ -10,12 +10,12 @@ config_version=5
 
 [application]
 
-config/name="GameJam"
-run/main_scene="res://Scenes/first_level.tscn"
-config/features=PackedStringArray("4.2", "GL Compatibility")
+config/name="Fantasy viewers"
+run/main_scene="res://Scenes/dialogos.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
-[rendering]
+[display]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+window/size/viewport_width=1920
+window/size/viewport_height=1080
