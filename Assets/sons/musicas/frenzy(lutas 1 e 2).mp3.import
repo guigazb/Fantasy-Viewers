@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cy8p8ir5kopfn"
+path="res://.godot/imported/frenzy(lutas 1 e 2).mp3-ca822a7a93410b295d9de7ba205d1400.mp3str"
+
+[deps]
+
+source_file="res://Assets/sons/musicas/frenzy(lutas 1 e 2).mp3"
+dest_files=["res://.godot/imported/frenzy(lutas 1 e 2).mp3-ca822a7a93410b295d9de7ba205d1400.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

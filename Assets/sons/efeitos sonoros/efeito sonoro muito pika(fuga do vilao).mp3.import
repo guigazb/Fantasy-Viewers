@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7vy5rbscp8ww"
+path="res://.godot/imported/efeito sonoro muito pika(fuga do vilao).mp3-7e490561749159dcd2aa112f18d1f568.mp3str"
+
+[deps]
+
+source_file="res://Assets/sons/efeitos sonoros/efeito sonoro muito pika(fuga do vilao).mp3"
+dest_files=["res://.godot/imported/efeito sonoro muito pika(fuga do vilao).mp3-7e490561749159dcd2aa112f18d1f568.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

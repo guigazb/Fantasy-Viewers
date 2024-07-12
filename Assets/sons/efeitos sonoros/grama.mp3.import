@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brxvfs6axy1ry"
+path="res://.godot/imported/grama.mp3-19796bfa59a828b94a095001dfa9f59b.mp3str"
+
+[deps]
+
+source_file="res://Assets/sons/efeitos sonoros/grama.mp3"
+dest_files=["res://.godot/imported/grama.mp3-19796bfa59a828b94a095001dfa9f59b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

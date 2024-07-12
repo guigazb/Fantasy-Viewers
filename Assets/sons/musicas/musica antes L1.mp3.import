@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cra0i67tugvf"
+path="res://.godot/imported/musica antes L1.mp3-623fa247064070779d02128c1358d4d8.mp3str"
+
+[deps]
+
+source_file="res://Assets/sons/musicas/musica antes L1.mp3"
+dest_files=["res://.godot/imported/musica antes L1.mp3-623fa247064070779d02128c1358d4d8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dtg08ktfbhr5x"
+path="res://.godot/imported/golpe.mp3-fa76bd19dff1128494826bb2b25b061b.mp3str"
+
+[deps]
+
+source_file="res://Assets/sons/efeitos sonoros/golpe.mp3"
+dest_files=["res://.godot/imported/golpe.mp3-fa76bd19dff1128494826bb2b25b061b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
