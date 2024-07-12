@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dp8smfjwn4abg"]
+
+[ext_resource type="Texture2D" path="res://Assets/pixil-frame-0.png" id="1_0wni2"]
+[ext_resource type="Script" path="res://Scripts/inimigos.gd" id="2_7prpb"]
+
+[node name="spritesL1" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 865.0
+offset_bottom = 457.0
+texture = ExtResource("1_0wni2")
+
+[node name="inimigos" type="Node2D" parent="."]
+script = ExtResource("2_7prpb")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="inimigos"]
+
+[node name="CharacterBody2D2" type="CharacterBody2D" parent="inimigos"]
+
+[node name="CharacterBody2D3" type="CharacterBody2D" parent="inimigos"]
